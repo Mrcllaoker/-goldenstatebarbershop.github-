@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Golden State Barber Shop</title>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+}
+header {
+    background: #000;
+    text-align: center;
+    padding: 60px 20px;
+}
+h1 {
+    color: gold;
+}
+.btn {
+    display: inline-block;
+    background: gold;
+    color: black;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+.card {
+    background: #222;
+    margin: 15px auto;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 10px;
+}
+footer {
+    background: #000;
+    text-align: center;
+    padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Golden State Barber Shop</h1>
+    <p>Fresh Cuts • Fades • Beard Trims</p>
+    <a href="#contact" class="btn">Book Now</a>
+</header>
+
+<section>
+    <h2>Services</h2>
+
+    <div class="card">
+        <h3>Haircut</h3>
+        <p>$25</p>
+    </div>
+
+    <div class="card">
+        <h3>Fade</h3>
+        <p>$30</p>
+    </div>
+
+    <div class="card">
+        <h3>Haircut + Beard</h3>
+        <p>$40</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Phone: (555) 555-5555</p>
+    <p>Email: info@goldenstatebarbershop.com</p>
+</section>
+
+<footer>
+    <p>© 2026 Golden State Barber Shop</p>
+</footer>
+
+</body>
+</html>
